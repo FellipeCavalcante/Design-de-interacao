@@ -1,0 +1,15 @@
+#painel_grafico {
+  width: 300px;
+  height: 200px;
+  background-color: lightgray;
+  border: 2px solid #000;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.shadow-box {
+  box-shadow: 5px 5px 15px;
+}
