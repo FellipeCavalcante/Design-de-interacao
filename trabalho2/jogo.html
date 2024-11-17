@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air-force-Destroyer</title>
+		<link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div id="fundo">
+        <img id="div1" src="./img/jato-jogo.png" alt="Jogador" />
+    </div>  
+
+    <div class="painel">
+        <button type="button" id="iniciar">Iniciar</button><br>
+        <hr>
+        <button type="button" id="atirar">Atirar</button><br>
+        <button type="button" id="esquerda">Esquerda</button>
+        <button type="button" id="direita">Direita</button><br>
+        <hr>
+        <div id="contador">Tempo: 0s</div>
+        <div id="recorde">Recorde: 0s</div>
+        <button type="button" id="reiniciar" style="visibility: hidden;">Reiniciar</button>
+    </div>
+  
+    <audio id="audio" src="./mp3/musica-do-jogo.mp3" loop></audio>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

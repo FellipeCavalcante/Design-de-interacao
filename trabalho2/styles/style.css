@@ -1,0 +1,52 @@
+#fundo {
+  position: absolute;
+  top: 5vw;
+  left: 5vw;
+  width: 90vw;
+  height: 40vw;
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+  overflow: hidden;
+}
+
+#div1 {
+  position: absolute;
+  top: 35vw;
+  left: 35vw;
+  width: 5vw;
+  height: 5vw;
+  object-fit: contain;
+}
+
+.bullets {
+  position: absolute;
+  width: 4vw;
+  height: 2vw;
+}
+
+.painel {
+  position: absolute;
+  top: 46vw;
+  left: 10vw;
+  text-align: center;
+}
+
+.target {
+  position: absolute;
+  width: 7vw;
+  height: 7vw;
+  object-fit: contain;
+}
+
+button {
+  padding: 1vw 2vw;
+  margin: 0.5vw;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+#contador, #recorde {
+  margin-top: 2vw;
+  font-size: 2vw;
+}
