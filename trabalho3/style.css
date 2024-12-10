@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  min-height: 100vh;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: #343a40;
+}
+
+#countries-select,
+#cep {
+  max-width: 400px;
+  margin: auto;
+}
+
+#country-details,
+#cep-result {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main#centralizar {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 90%; 
+  max-width: 800px; 
+  margin: auto; 
+}
+
+footer {
+  background: #343a40;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+}
+
+@media (min-width: 1200px) {
+  main#centralizar {
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+  }
+}
